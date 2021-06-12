@@ -1,6 +1,6 @@
-# test-python-drone
+# Test App Flask python
 
-Sample python project to test drone
+Sample python project built using flask
 
 To install python packages
 ```# python -m pip install -r requirements.txt```
