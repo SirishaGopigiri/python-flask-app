@@ -12,10 +12,10 @@ To run test cases
 ```# pytest test_app.py```
 
 To build docker image
-```# docker build -t testapp .```
+```# docker build -t python-testapp:v1 .```
 
 To run the app as docker conatiner
-```# sudo docker run -it --publish 8099:5000 testapp:latest```
+```# sudo docker run -it --publish 8099:5000 python-testapp:v1```
 
 Run curl command to test the app
 ```# curl -v localhost:8099/```
