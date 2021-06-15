@@ -22,4 +22,4 @@ def test_app(client):
 
 def test_app_version(client):
     rv = client.get('/return_version')
-    assert b'Running test app on version 2.0 !!!' in rv.data
+    assert b'Running test app on version 3.0 !!!' in rv.data
